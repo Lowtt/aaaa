@@ -1,0 +1,91 @@
+body {
+    background-color: #e6e6e6 !important;
+    min-height: 100vh;
+    min-width: 1280px;
+    color: #fff;
+    font-size: 12px;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.ant-modal-wrap {
+    min-width: 1280px;
+}
+
+* {
+    &::-webkit-scrollbar {
+        height: 5px;
+        width: 5px;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: inset 0 0 10px #666;
+        cursor: pointer;
+        border: none;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        box-shadow: inset 0 0 10px #666;
+        background-color: transparent;
+    }
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.ant-table {
+    font-size: 12px
+}
+
+.ant-table-thead>tr>th,
+.ant-table-tbody>tr>td {
+    padding: 12px
+}
+
+.app-body {
+    display: flex;
+    flex: 1;
+}
+
+.ant-transfer-list {
+    width: 400px;
+    height: 500px
+}
+
+.app-main {
+    position: relative;
+    flex: 1;
+    overflow: auto;
+    color: #fff;
+    padding: 6px;
+    margin-left: 180px;
+    margin-top: 50px;
+    .page-spin {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.ant-spin-spinning {
+    background-color: #33333300;
+}

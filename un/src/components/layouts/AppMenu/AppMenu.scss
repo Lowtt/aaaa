@@ -1,0 +1,44 @@
+.app-menu {
+  .ant-menu {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .ant-menu-submenu>.ant-menu {
+    background-color: #141922;
+  }
+  .ant-menu-inline>.ant-menu-submenu>.ant-menu-submenu-title {
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    padding-left: 12px
+  }
+  .ant-menu-inline,
+  .ant-menu-vertical,
+  .ant-menu-vertical-left {
+    border-right: none;
+  }
+  .ant-menu-item {
+    font-size: 12px;
+    text-indent: 12px;
+    &:after {
+      display: none;
+    }
+    &:hover {
+      color: #fff;
+    }
+  }
+  .ant-menu-submenu,
+  .ant-menu-item-active {
+    background-color: transparent !important;
+  }
+  .ant-menu-submenu-selected {
+    background-color: #0E131A;
+    .ant-menu {
+      background-color: #0E131A;
+    }
+    .ant-menu-item-selected {
+      color: #fff;
+      background-color: transparent !important;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.panel {
+    background: #ffff;
+    border-bottom: 1px solid #ffff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    .panel-header {
+        display: flex;
+        padding: 14px 14px 6px;
+        // border-bottom: 1px solid #e6e6e6;
+        justify-content: space-between;
+    }
+    .panel-title {
+        font-size: 20px;
+        flex: 1 0 auto;
+        margin-right: 14px;
+        color: #000;
+    }
+    .panel-body {
+        text-align: center;
+        padding: 0 14px;
+        position: relative;
+    }
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.panel {
+    .panel-tools {
+        .date-unit-seletor {
+            margin-left: 10px;
+        }
+    }
+}
